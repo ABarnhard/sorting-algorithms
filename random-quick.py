@@ -18,7 +18,7 @@ def random_quick_sort(list_to_sort):
     else:
         return list_to_sort
 
-array = [20, 3, 7]
+array = [20, 3, 3, 19, 88, 7, 22, 7, 4, 2, 99]
 sorted_array = random_quick_sort(array)
 print(sorted_array)
 
