@@ -6,7 +6,7 @@ def selection_sort(list_to_sort):
                 min_index = j
         list_to_sort[i], list_to_sort[min_index] = list_to_sort[min_index], list_to_sort[i]
 
-nums = [20, 3, 7]
+nums = [20, 3, 7, 56, 2, 77, 100, 43, 698, 1]
 selection_sort(nums)
 
 print(nums)
